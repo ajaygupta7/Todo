@@ -1,0 +1,17 @@
+.deleteIcon, .taskLabel {
+    z-index: 3;
+}
+.deleteIcon {
+    display: none;
+}
+.taskItem:hover .deleteIcon {
+    display: block;
+}
+ion-checkbox:checked {
+    color: #dadada;
+}
+
+input[type=checkbox]:checked + label {
+    color: #f00;
+    font-style: normal;
+  } 
