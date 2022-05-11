@@ -34,7 +34,7 @@ export class TodoTaskPage implements OnInit {
         return;
       }
     }
-    if(this.selectedTask.id) {
+    if(this.selectedTask && this.selectedTask.id) {
       this.todoList.forEach(task => {
         if(task.id == this.selectedTask.id) {
           task.name = this.task.trim();
